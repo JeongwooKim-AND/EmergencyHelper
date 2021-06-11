@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    tools:context="com.example.jw1404.emergencyhelper.ContractActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Emergency Helper"
+                android:textColor="#ffffff"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="370dp"
+                android:layout_gravity="center"
+                android:fillViewport="true">
+
+                <TextView
+                    android:id="@+id/contractscroll"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:background="@color/colorPrimary"
+                    android:padding="5dp"
+                    android:scrollbars="vertical"
+                    android:text="@string/using_our_services_you_must_follow_any_policies_made_available_to_you_within_the_services_don_t_misuse_our_services_for_example_don_t_interfere_with_our_services_or_try_to_access_them_using_a_method_other_than_the_interface_and_the_instructions_that_we_provide_you_may_use_our_services_only_as_permitted_by_law_we_may_suspend_or_stop_providing_our_services_to_you_if_you_do_not_comply_with_our_terms_or_policies_or_if_we_are_investigating_suspected_misconduct_using_our_services_does_not_give_you_ownership_of_any_intellectual_property_rights_in_our_services_or_the_content_you_access_you_may_not_use_content_from_our_services_unless_you_obtain_permission_from_its_owner_or_are_otherwise_permitted_by_law_these_terms_do_not_grant_you_the_right_to_use_any_branding_or_logos_used_in_our_services_don_t_remove_obscure_or_alter_any_legal_notices_displayed_in_or_along_with_our_services_our_services_display_some_content_that_is_not_emergency_helper_s_this_content_is_the_sole_responsibility_of_the_entity_that_makes_it_available_we_may_review_content_to_determine_whether_it_is_illegal_or_violates_our_policies_and_we_may_remove_or_refuse_to_display_content_that_we_reasonably_believe_violates_our_policies_or_the_law_but_that_does_not_necessarily_mean_that_we_review_content_so_please_don_t_assume_that_we_do_in_connection_with_your_use_of_the_services_we_may_send_you_service_announcements_administrative_messages_and_other_information_you_may_opt_out_of_some_of_those_communications_some_of_our_services_are_available_on_mobile_devices_do_not_use_such_services_in_a_way_that_distracts_you_and_prevents_you_from_obeying_traffic_or_safety_laws_your_emergency_helper_account_you_need_an_emergency_helper_account_in_order_to_use_our_services_you_may_create_your_own_emergency_helper_account_such_as_your_employer_or_educational_institution_if_you_are_using_a_emergency_helper_account_assigned_to_you_by_an_administrator_different_or_additional_terms_may_apply_and_your_administrator_may_be_able_to_access_or_disable_your_account_to_protect_your_emergency_helper_account_keep_your_password_confidential_you_are_responsible_for_the_activity_that_happens_on_or_through_your_emergency_helper_account_try_not_to_reuse_your_emergency_helper_account_password_on_third_party_applications_if_you_learn_of_any_unauthorized_use_of_your_password_or_emergency_helper_account_follow_these_instructions_privacy_and_copyright_protection_emergency_helper_s_privacy_policies_explain_how_we_treat_your_personal_data_and_protect_your_privacy_when_you_use_our_services_by_using_our_services_you_agree_that_emergency_helper_can_use_such_data_in_accordance_with_our_privacy_policies_we_respond_to_notices_of_alleged_copyright_infringement_and_terminate_accounts_of_repeat_infringers_according_to_the_process_set_out_in_the_philippine_republic_act_no_8293_modifying_and_terminating_our_services_we_are_constantly_changing_and_improving_our_services_we_may_add_or_remove_functionalities_or_features_and_we_may_suspend_or_stop_a_service_altogether_you_can_stop_using_our_services_at_any_time_although_we_ll_be_sorry_to_see_you_go_emergency_helper_may_also_stop_providing_services_to_you_or_add_or_create_new_limits_to_our_services_at_any_time_we_believe_that_you_own_your_data_and_preserving_your_access_to_such_data_is_important_if_we_discontinue_a_service_where_reasonably_possible_we_will_give_you_reasonable_advance_notice_and_a_chance_to_get_information_out_of_that_service_business_uses_of_our_services_if_you_are_using_our_services_on_behalf_of_a_business_that_business_accepts_these_terms_it_will_hold_harmless_and_indemnify_emergency_helper_and_its_affiliates_officers_agents_and_employees_from_any_claim_suit_or_action_arising_from_or_related_to_the_use_of_the_services_or_violation_of_these_terms_including_any_liability_or_expense_arising_from_claims_losses_damages_suits_judgments_litigation_costs_and_attorneys_fees_about_these_terms_we_may_modify_these_terms_or_any_additional_terms_that_apply_to_a_service_to_for_example_reflect_changes_to_the_law_or_changes_to_our_services_you_should_look_at_the_terms_regularly_we_ll_post_notice_of_modifications_to_these_terms_on_this_page_we_ll_post_notice_of_modified_additional_terms_in_the_applicable_service_changes_will_not_apply_retroactively_and_will_become_effective_no_sooner_than_fourteen_days_after_they_are_posted_however_changes_addressing_new_functions_for_a_service_or_changes_made_for_legal_reasons_will_be_effective_immediately_if_you_do_not_agree_to_the_modified_terms_for_a_service_you_should_discontinue_your_use_of_that_service_if_there_is_a_conflict_between_these_terms_and_the_additional_terms_the_additional_terms_will_control_for_that_conflict_these_terms_control_the_relationship_between_emergency_helper_and_you_they_do_not_create_any_third_party_beneficiary_rights_if_you_do_not_comply_with_these_terms_and_we_don_t_take_action_right_away_this_doesn_t_mean_that_we_are_giving_up_any_rights_that_we_may_have_such_as_taking_action_in_the_future_if_it_turns_out_that_a_particular_term_is_not_enforceable_this_will_not_affect_any_other_terms_for_information_about_how_to_contact_emergency_helper_please_visit_our_contact_page"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

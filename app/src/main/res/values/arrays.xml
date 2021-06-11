@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="police">
+        <item>
+            <title>Police Station 1</title>
+            <phone>424-2697</phone>
+            <address>Quirino Highway</address>
+            <wido>16.40878</wido>
+            <kyungdo>120.57936</kyungdo>
+        </item>
+
+        <item>
+            <title>Police Station 2</title>
+            <phone>661-1255</phone>
+            <address>Camdas</address>
+            <wido>16.42562</wido>
+            <kyungdo>120.59373</kyungdo>
+        </item>
+
+        <item>
+            <title>Police Station 3</title>
+            <phone>300 - 9113</phone>
+            <address>Pacdal Circle</address>
+            <wido>16.417393</wido>
+            <kyungdo>120.615500</kyungdo>
+        </item>
+
+        <item>
+            <title>Police Station 4</title>
+            <phone>305 - 9114</phone>
+            <address>PEZA, Loakan</address>
+            <wido>16.37958</wido>
+            <kyungdo>120.61934</kyungdo>
+        </item>
+
+        <item>
+            <title>Police Station 5</title>
+            <phone>442 - 0629</phone>
+            <address>Legarda, Marcos Highway</address>
+            <wido>16.403006</wido>
+            <kyungdo>120.593472</kyungdo>
+        </item>
+
+    </string-array>
+
+</resources>
